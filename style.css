@@ -1,0 +1,57 @@
+:root{
+    --color: cyan;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color:var(--color);
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+    color:var(--color);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    max-width: 1500px;
+}
+
+.title{
+    /* font-size: 200px; */
+    /* font-size: clamp(5rem, -0.875rem + 8.333vw, 20rem); */
+    font-size: clamp(3.5rem, 1rem + 15vw, 10rem);
+    margin: 1rem 3rem;
+    font-weight: 400;
+}
+
+.subtitle{
+    margin: 3rem;
+}
+
+.menu{
+    text-align: right;
+    margin: 3rem;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+
+}
